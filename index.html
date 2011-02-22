@@ -1,0 +1,143 @@
+<!DOCTYPE html>   
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title><!-- Insert your title here --></title>
+	<script type="text/javascript" src="mootools-core-1.3-full-nocompat-yc.js"></script>
+	<script type="text/javascript" src="mootools-more.js"></script>
+	<script type="text/javascript" src="zoom.js"></script>
+	<script type="text/javascript">
+		window.addEvent('domready', function(){
+			new Zoom($$('span.zoom'));
+		});
+	</script>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../css/960.css" />
+	<link rel="stylesheet" type="text/css" href="../css/text.css" />
+	<style type="text/css">
+        body {
+            background: #fff;
+            color: #333;
+            font: 14px/16px Georgia, serif;
+        }
+		a {
+			text-decoration: none;
+            }
+            a img {
+                border: none;
+            }   
+		p img {
+			float: left;
+			padding: 0 10px 10px 0;
+		}
+        #Wrapper {
+            margin: 0 auto;
+            width: 960px;
+        }
+		.zoom {
+			background: #eee;
+			cursor: pointer;
+			display: block;
+			float: left;
+			margin: 0 10px 10px 0;
+			padding: 7px 7px 0;
+			/*padding-bottom: 0 !important;*/
+			width: 200px;
+			}
+			.zoom a {
+				display: block;
+				outline: none;
+				position: relative;
+				}
+				.zoom img {
+					display: block;
+					float: none;
+					height: 100%;
+					padding: 0;
+					width: 100%;
+				}
+				.zoom .magnifier {
+					background: url(search.png) no-repeat;
+					bottom: 5px;
+					display: block;
+					height: 24px;
+					position: absolute;
+					right: 5px;
+					width: 24px;
+					z-index: 1;
+				}
+			.zoom .title {
+				color: #666;
+				display: block;
+				padding: 5px 0;
+			}
+	</style>
+</head>
+<body>
+    <div id="Wrapper">
+        <p>
+            <span class="zoom">
+                <a href="kanal_large.jpg">
+                    <img src="kanal.jpg" height="113" width="200" />
+                </a>
+                <span class="title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</span>
+            </span>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+            dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+            dolor sit amet.
+        </p>
+    
+        <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+            dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+            dolor sit amet.
+        </p>
+    
+
+        <p>
+            <span class="zoom">
+                <a href="wolken_large.jpg">
+                    <img src="wolken.jpg" height="113" width="200" />
+                </a>
+                <span class="title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</span>
+            </span>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+            dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+            dolor sit amet.
+        </p>
+    </div>
+
+</body>
+</html>
